@@ -1,11 +1,13 @@
 import "./App.css";
 import { Button, Alert, Accordion, Badge } from "react-bootstrap";
-import Navbar from "./components/Navbar";
+import NavBar from "./components/NavBar";
+import OffcanvasExample from "./components/OffcanvasExample";
 
 function App() {
   return (
     <div className="mt-3">
-      <Navbar />
+      <OffcanvasExample />
+      <NavBar />
       <h2>Hey! I am learning react-bootstrap</h2>
       <Button variant="primary">Primary</Button>{" "}
       <Button variant="secondary">Secondary</Button>{" "}
